@@ -1,0 +1,54 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+h3 {
+    font-size: 40px;
+}
+.container {
+    margin: 0 auto;
+    max-width: 700px;
+    background-color: #1B244A;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+
+.home, .guest {
+    text-align: center;
+    color: #EEEEEE;
+}
+
+.input {
+    width: 155px;
+    height: 120px;
+    margin: 0 auto 26px;
+    background-color: #080001;
+    color: #F94F6D;
+    border: 0;
+    font-size: 97px;
+}
+
+.btn {
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #EEEEEE;
+    width: 45px;
+    height: 45px;
+    column-gap: 30px;
+    cursor: pointer;
+}
+
+.new-game {
+    width: 160px;
+    height: 70px;
+    margin: auto 0;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #EEEEEE;
+    font-size: 25px;
+    cursor: pointer;
+}
